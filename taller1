@@ -1,0 +1,16 @@
+// codigo 1 y 2 corazon rojo
+Console.WriteLine("Pon tu nombre:");
+string nombre = Console.ReadLine();
+Console.WriteLine("Hola, " + nombre + "❤");
+
+// codigo 3
+string nombre = "kevin";
+int edad = 19;
+Console.ForegroundColor = ConsoleColor.Red;
+Console.WriteLine($"Nombre:  {nombre},  Edad: {edad}");
+
+// codigo 4
+string nombre = "kevin";
+int edad = 19;
+Console.ForegroundColor = ConsoleColor.Red;
+Console.WriteLine(String.Format("Nombre: {0}, Edad: {1}", nombre, edad));
