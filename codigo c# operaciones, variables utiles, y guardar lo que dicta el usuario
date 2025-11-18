@@ -1,0 +1,59 @@
+Console.WriteLine("Dijite su nombre: ");
+        String nombre = Console.ReadLine();
+        
+        Console.WriteLine("Dijite su edad: ");
+        int edad = int.Parse(Console.ReadLine());
+        
+        Console.WriteLine("Dijite su direccion: ");
+        string direccion = Console.ReadLine();
+        
+        Console.WriteLine("Dijite su gmail: ");
+        string gmail = Console.ReadLine();
+        
+        Console.WriteLine("Datos");
+    
+        Console.WriteLine("Nombre: " + nombre);
+        Console.WriteLine("Edad: "+ edad );
+        Console.WriteLine("Direccion: "+ direccion);
+        Console.WriteLine("gmail: "+ gmail);
+        
+        
+        int num1 = (2 + 4);
+        double num2 = num1 * num1;
+        
+        int num3 = (4 * 8);
+        double num4 = num3 * num3* num3;
+        
+        double divi = num2 / num4;
+        
+        Console.WriteLine("numero 1 "+ num2);
+        Console.WriteLine("numero 2 "+ num3);
+        
+        Console.WriteLine("Respuesta: " + divi);
+        //maximo y minimo
+        double max = Math.Max(5,10);
+        double min = Math.Min(5,10);
+        Console.WriteLine(max);
+        Console.WriteLine(min);
+        
+        //obtener raiz
+        double raiz = Math.Sqrt(64);
+        Console.WriteLine(raiz);
+        
+        //obtner valor positivo de numeros cualquiera
+        double abs = Math.Abs(-4.5);
+        Console.WriteLine(abs);
+        
+        // Redondea numeros el redonde sucede e 0.5 para subir
+        double redondeo = Math.Round(0.0010986328125);
+        Console.WriteLine(redondeo);
+        
+        // cuenta los numeros de datos de un stgring
+        string direccionlongi = direccion;
+        Console.WriteLine("Longitud de dirrecion: "+ direccionlongi.Length);
+        //mayuscula
+        string nombremayuscula = nombre;
+        Console.WriteLine("Nombre: "+nombremayuscula.ToUpper());
+        //miniscula
+        string gmailminuscula = gmail;
+        Console.WriteLine("gmail: "+gmailminuscula.ToLower());
