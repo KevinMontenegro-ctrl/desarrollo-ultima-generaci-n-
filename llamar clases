@@ -1,0 +1,24 @@
+
+//ejercicio 15
+    class Car
+  {
+    private string model = "Mustang";
+    static void Main(string[] args)
+    {
+      Car myObj = new Car();
+      Console.WriteLine(myObj.model);
+    }
+  } 
+//ejercicio 16
+   class Program
+  {
+    static void Main(string[] args)
+    {
+      Person myObj = new Person();
+      myObj.Name = "Liam";
+      Console.WriteLine(myObj.Name);
+    }
+  }
+//ejercicio 17
+  Ciudadano c = new Ciudadano("1073232883");
+  Console.WriteLine("el dni es: " + c.DNI);
